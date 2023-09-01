@@ -21,9 +21,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         {/* HEADER */}
-        <PageContainer as="header" className="sticky top-0 z-50 h-20 flex flex-row items-center justify-between overflow-visible">
-          <Link href="/" className="h-12 w-12 border rounded-full drop-shadow-2xl">
-            <Image className="invert rounded-full" src="/phvalues---bw.png" width="64" height="64" alt="ph values logo" />
+        <PageContainer as="header" className="sticky top-0 z-50 h-24 flex flex-row items-center justify-between overflow-visible">
+          <Link href="/" className="h-12 w-12 border rounded-full bg-white drop-shadow-2xl">
+            <Image className="invert rounded-full overflow-hidden" src="/phvalues---bw.png" width="64" height="64" alt="ph values logo" />
           </Link>
           <div className="h-12 w-12 flex justify-center items-center border rounded-full bg-white drop-shadow-2xl">
             <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">

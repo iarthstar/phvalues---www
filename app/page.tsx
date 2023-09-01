@@ -46,12 +46,12 @@ export default function Home() {
                   Deep Thinkers
                 </span>
                 <span
-                  className="absolute h-full w-full -translate-y-full animate-slide leading-none bg-gradient-to-r from-purple-700 to-purple-300 bg-clip-text tracking-[-0.05rem] text-transparent opacity-100 drop-shadow-sm [animation-delay:1s]"
+                  className="absolute h-full w-full -translate-y-full animate-slide leading-none bg-gradient-to-r from-purple-700 to-purple-300 bg-clip-text tracking-[-0.05rem] text-transparent opacity-100 drop-shadow-sm [animation-delay:1.63s]"
                 >
                   Problem Solvers
                 </span>
                 <span
-                  className="absolute h-full w-full -translate-y-full animate-slide leading-none bg-gradient-to-r from-purple-700 to-purple-300 bg-clip-text tracking-[-0.05rem] text-transparent opacity-100 drop-shadow-sm [animation-delay:2s]"
+                  className="absolute h-full w-full -translate-y-full animate-slide leading-none bg-gradient-to-r from-purple-700 to-purple-300 bg-clip-text tracking-[-0.05rem] text-transparent opacity-100 drop-shadow-sm [animation-delay:3.33s]"
                 >
                   Enterprenuers
                 </span>
@@ -127,12 +127,12 @@ export default function Home() {
                 Ethos
               </span>
               <span
-                className="absolute left-0 h-full w-full -translate-y-full animate-slide leading-none bg-gradient-to-br from-purple-500 to-purple-300 bg-clip-text tracking-[-0.02em] text-transparent opacity-100 drop-shadow-sm [animation-delay:1s]"
+                className="absolute left-0 h-full w-full -translate-y-full animate-slide leading-none bg-gradient-to-br from-purple-500 to-purple-300 bg-clip-text tracking-[-0.02em] text-transparent opacity-100 drop-shadow-sm [animation-delay:1.63s]"
               >
                 Values
               </span>
               <span
-                className="absolute left-0 h-full w-full -translate-y-full animate-slide leading-none bg-gradient-to-br from-purple-500 to-purple-300 bg-clip-text tracking-[-0.02em] text-transparent opacity-100 drop-shadow-sm [animation-delay:2s]"
+                className="absolute left-0 h-full w-full -translate-y-full animate-slide leading-none bg-gradient-to-br from-purple-500 to-purple-300 bg-clip-text tracking-[-0.02em] text-transparent opacity-100 drop-shadow-sm [animation-delay:3.33s]"
               >
                 Morals
               </span>
