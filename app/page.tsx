@@ -1,6 +1,7 @@
 import { Button, PageContainer, Text } from "@/ui";
 import Image from "next/image";
 import Link from "next/link";
+import Script from "next/script";
 
 export default function Home() {
   return (
@@ -132,9 +133,9 @@ export default function Home() {
 
 
       {/* TEAM SECTION */}
-      <PageContainer className="flex flex-col items-center pb-0">
+      <PageContainer className="flex flex-col items-center pb-56">
         <Text as="h2" className="w-fit text-3xl uppercase bg-gradient-to-r from-purple-700 to-purple-300 bg-clip-text tracking-[-0.05rem] text-transparent opacity-100 drop-shadow-sm pb-16">Our TEAM</Text>
-        <div className="flex flex-col md:flex-row gap-24 pb-72">
+        <div className="flex flex-col md:flex-row gap-24">
           <div className="flex flex-col w-full">
             <Image src="https://static.wixstatic.com/media/8d54a7_a19e136d4fa5416c963815a2939723c6~mv2.jpg/v1/crop/x_259,y_0,w_665,h_665/fill/w_384,h_384,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/IMG_6206_JPG.jpg" width="1024" height="1024" alt="" className="h-96 transition-all shadow-2xl hover:shadow-md object-cover rounded-[2rem] grayscale" />
             <Text className="w-fit mt-8 p-8 text-3xl bg-gradient-to-br from-black to-stone-500 bg-clip-text tracking-[-0.02em] text-transparent opacity-100 drop-shadow-md">
@@ -150,6 +151,19 @@ export default function Home() {
             <Text className="px-8 text-md text-stone-500">Mr. Kumar co-managed over $2b of US equity funds at Columbia Threadneedle for six years. He has spent over fifteen years researching companies in technology, biotech/ life sciences, and financial sectors. He has previously worked in the tech industry for ten years.</Text>
           </div>
         </div>
+      </PageContainer>
+
+
+
+      {/* CONTACT SECTION */}
+      <PageContainer className="flex flex-col items-center pb-56">
+        <Text as="h2" className="w-fit text-3xl uppercase bg-gradient-to-r from-purple-700 to-purple-300 bg-clip-text tracking-[-0.05rem] text-transparent opacity-100 drop-shadow-sm pb-16">Contact Us</Text>
+        <iframe data-tally-src="https://tally.so/embed/mO4Ve7?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="1" title="Contact form"></iframe>
+        <Script id="tally-form" strategy="lazyOnload">
+          {`var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined" != typeof Tally ? Tally.loadEmbeds() : d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function (e) { e.src = e.dataset.tallySrc }))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}`}
+        </Script>
+        <div className="h-12 -translate-y-16 w-48 bg-white self-start min-[640px]:self-end"></div>
+
       </PageContainer>
 
 
