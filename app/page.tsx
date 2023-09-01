@@ -9,31 +9,31 @@ export default function Home() {
       {/* HERO SECTION */}
       <PageContainer className="w-full grid grid-cols-1 md:grid-cols-2 -translate-y-4">
         <div className="pt-24 md:pt-0 flex flex-col justify-center items-start">
-          <div>
+          <div className="translate-y-[1rem] animate-fade-in opacity-0 [--animation-delay:200ms]">
             <Text as="h1" font="inter" className="w-fit text-4xl md:text-5xl uppercase animate-fade-up bg-gradient-to-r from-black to-stone-500 bg-clip-text tracking-[-0.05rem] text-transparent opacity-100 drop-shadow-sm">
               To be on an infinite journey of learning and risk-taking with
             </Text>
             <Text as="h1" className="flex items-center text-4xl md:text-5xl uppercase">
               <span className="relative h-[2.5rem] md:h-[3rem] w-full overflow-hidden">
                 <span
-                  className="absolute h-full w-full -translate-y-full animate-slide leading-none bg-gradient-to-r from-purple-700 to-purple-300 bg-clip-text tracking-[-0.05rem] text-transparent opacity-100 drop-shadow-sm"
+                  className="absolute h-full w-full -translate-y-full animate-slide leading-none bg-gradient-to-r from-purple-700 to-purple-300 bg-clip-text tracking-[-0.05rem] text-transparent opacity-100 drop-shadow-sm [animation-delay:0.450s]"
                 >
                   Deep Thinkers
                 </span>
                 <span
-                  className="absolute h-full w-full -translate-y-full animate-slide leading-none bg-gradient-to-r from-purple-700 to-purple-300 bg-clip-text tracking-[-0.05rem] text-transparent opacity-100 drop-shadow-sm [animation-delay:1.63s]"
+                  className="absolute h-full w-full -translate-y-full animate-slide leading-none bg-gradient-to-r from-purple-700 to-purple-300 bg-clip-text tracking-[-0.05rem] text-transparent opacity-100 drop-shadow-sm [animation-delay:2.08s]"
                 >
                   Problem Solvers
                 </span>
                 <span
-                  className="absolute h-full w-full -translate-y-full animate-slide leading-none bg-gradient-to-r from-purple-700 to-purple-300 bg-clip-text tracking-[-0.05rem] text-transparent opacity-100 drop-shadow-sm [animation-delay:3.33s]"
+                  className="absolute h-full w-full -translate-y-full animate-slide leading-none bg-gradient-to-r from-purple-700 to-purple-300 bg-clip-text tracking-[-0.05rem] text-transparent opacity-100 drop-shadow-sm [animation-delay:3.78s]"
                 >
                   Enterprenuers
                 </span>
               </span>
             </Text>
           </div>
-          <div className="flex flex-row gap-8 mt-12">
+          <div className="flex flex-row gap-8 mt-12 translate-y-[1rem] animate-fade-in opacity-0 [--animation-delay:300ms]">
             <Button className="border border-purple-500 flex flex-row items-center gap-2 transition-all shadow-sm hover:shadow-xl hover:border-gray-800">
               <Text as="span" className="text-xs font-medium">Our Mission</Text>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-4 h-4">

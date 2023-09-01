@@ -10,8 +10,13 @@ const config: Config = {
     extend: {
       animation: {
         slide: "slide 5s ease-in-out infinite",
+        "fade-in": "fade-in 450ms var(--animation-delay, 0ms) ease forwards",
       },
       keyframes: {
+        "fade-in": {
+          from: { opacity: "0", transform: "translateY(20px)" },
+          to: { opacity: "1", transform: "none" },
+        },
         slide: {
           "0%": { transform: "translateY(100%)", opacity: "0.1" },
           "15%": { transform: "translateY(0)", opacity: "1" },
