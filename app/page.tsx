@@ -28,7 +28,7 @@ export default function Home() {
                 <span
                   className="absolute h-full w-full -translate-y-full animate-slide leading-none bg-gradient-to-r from-purple-700 to-purple-300 bg-clip-text tracking-[-0.05rem] text-transparent opacity-100 drop-shadow-sm [animation-delay:3.78s]"
                 >
-                  Enterprenuers
+                  Entrepreneurs
                 </span>
               </span>
             </Text>
