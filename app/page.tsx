@@ -156,24 +156,23 @@ export default function Home() {
 
 
       {/* CONTACT SECTION */}
-      <PageContainer className="flex flex-col items-center pb-56">
+      <PageContainer className="flex flex-col items-center pb-32">
         <Text as="h2" className="w-fit text-3xl uppercase bg-gradient-to-r from-purple-700 to-purple-300 bg-clip-text tracking-[-0.05rem] text-transparent opacity-100 drop-shadow-sm pb-16">Contact Us</Text>
         <iframe data-tally-src="https://tally.so/embed/mO4Ve7?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="1" title="Contact form"></iframe>
         <Script id="tally-form" strategy="lazyOnload">
           {`var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined" != typeof Tally ? Tally.loadEmbeds() : d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function (e) { e.src = e.dataset.tallySrc }))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}`}
         </Script>
         <div className="h-12 -translate-y-16 w-48 bg-white self-start min-[640px]:self-end"></div>
-
       </PageContainer>
 
 
 
       {/* LAST SECTION */}
       <PageContainer className="h-64 md:h-96 w-full">
-        <div className="rounded-[2rem] h-full px-8 md:rounded-[6rem] from-50% bg-gradient-to-b from-transparent to-purple-300 w-full">
-          <Text className="text-3xl md:text-5xl text-center py-2 bg-gradient-to-br from-black to-stone-500 bg-clip-text tracking-[-0.02em] text-transparent opacity-100 drop-shadow-sm">Building a culture of</Text>
-          <Text className="flex items-center justify-center text-3xl md:text-5xl text-center py-2 bg-gradient-to-br from-black to-stone-500 bg-clip-text tracking-[-0.02em] text-transparent opacity-100 drop-shadow-sm">
-            <span className="relative h-[3rem] w-48 overflow-hidden">
+        <div className="rounded-[2rem] h-full md:rounded-[6rem] from-50% bg-gradient-to-b from-transparent to-purple-300 w-full">
+          <Text className="uppercase text-2xl md:text-5xl text-center md:py-2 bg-gradient-to-br from-black to-stone-500 bg-clip-text tracking-[-0.02em] text-transparent opacity-100 drop-shadow-sm">Building a culture of</Text>
+          <Text className="uppercase flex items-center justify-center text-2xl md:text-5xl text-center py-2 bg-gradient-to-br from-black to-stone-500 bg-clip-text tracking-[-0.02em] text-transparent opacity-100 drop-shadow-sm">
+            <span className="relative h-[1.5rem] md:h-[3rem] w-48 overflow-hidden">
               <span
                 className="absolute left-0 h-full w-full -translate-y-full animate-slide leading-none bg-gradient-to-br from-purple-500 to-purple-300 bg-clip-text tracking-[-0.02em] text-transparent opacity-100 drop-shadow-sm"
               >
