@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       animation: {
-        slide: "slide 3s linear infinite",
+        slide: "slide 3s ease-in-out infinite",
       },
       keyframes: {
         slide: {
