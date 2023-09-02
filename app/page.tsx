@@ -73,10 +73,14 @@ export default function Home() {
               <svg xmlns="http://www.w3.org/2000/svg" className="h-24 md:h-48 text-purple-100" viewBox="0 0 61 44">
                 <path d="M 1 42.604 L 2.45 34.543 C 5.647 34.717 8.138 34.254 9.922 33.156 C 11.707 32.058 12.897 30.527 13.492 28.563 C 14.086 26.598 14.198 24.373 13.826 21.889 L 1 21.889 L 1 1 L 25.648 1 L 25.648 23.622 C 25.648 30.441 23.529 35.583 19.291 39.05 C 15.127 42.517 9.03 43.702 1 42.604 Z M 35.352 42.604 L 36.802 34.543 C 39.999 34.717 42.49 34.254 44.274 33.156 C 46.059 32.058 47.248 30.527 47.843 28.563 C 48.438 26.598 48.55 24.373 48.178 21.889 L 35.352 21.889 L 35.352 1 L 60 1 L 60 23.622 C 60 30.441 57.881 35.583 53.643 39.05 C 49.479 42.517 43.382 43.702 35.352 42.604 Z" fill="currentColor" />
               </svg>
-              <Text font="mrsSaintDelafield" className="text-5xl p-8 bg-gradient-to-br from-black to-stone-500 bg-clip-text tracking-[-0.02em] text-transparent opacity-100 drop-shadow-sm">
-                Devote your entire will power to mastering one thing at a time; do not scatter your energies, nor leave something half done to begin a new venture.
+              <div>
 
-                <br /><br />- Paramahansa Yogananda</Text>
+                <Text font="mrsSaintDelafield" className="text-5xl p-8 bg-gradient-to-r from-black to-stone-500 bg-clip-text tracking-[-0.05rem] text-transparent opacity-100 drop-shadow-md">
+                  Devote your entire will power to mastering one thing at a time; do not scatter your energies, nor leave something half done to begin a new venture.
+
+                </Text>
+                <Text font="mrsSaintDelafield" className="w-fit text-5xl p-8 bg-gradient-to-r from-black to-stone-500 bg-clip-text tracking-[-0.05rem] text-transparent opacity-100 drop-shadow-md">- Paramahansa Yogananda</Text>
+              </div>
             </div>
           </div>
 
