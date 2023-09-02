@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      boxShadow: {
+        '3xl': '0 35px 60px -15px rgba(0, 0, 0, 0.3)',
+        '4xl': '0 45px 72px -18px rgba(0, 0, 0, 0.35)',
+      },
       animation: {
         slide: "slide 5s ease-in-out infinite",
         "fade-in": "fade-in 450ms var(--animation-delay, 0ms) ease forwards",

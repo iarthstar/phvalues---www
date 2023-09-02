@@ -63,11 +63,11 @@ export default function Home() {
       {/* QUOTE SECTION */}
       <PageContainer className="pb-56">
         <div className="group grid grid-cols-1 grid-rows-1 w-full overflow-hidden rounded-[2rem]">
-          <div className="col-start-1 row-start-1 col-span-1 row-span-1 p-3 -inset-8 rounded-lg bg-gradient-to-br from-purple-900 via-purple-500 to-purple-400 opacity-75 blur-2xl">
+          <div className="col-start-1 row-start-1 col-span-1 row-span-1 p-3 -inset-8 rounded-lg bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 opacity-75 blur-2xl">
             <div className="h-full w-full rounded-[0.5rem] bg-white flex flex-col p-8">
             </div>
           </div>
-          <div className="col-start-1 row-start-1 col-span-1 row-span-1  z-10 rounded-[1.5rem] bg-white flex flex-col justify-between p-3 md:p-8 m-3 transition-all shadow-md overflow-hidden group-hover:shadow-2xl">
+          <div className="col-start-1 row-start-1 col-span-1 row-span-1  z-10 rounded-[1.5rem] bg-white flex flex-col justify-between p-3 md:p-8 m-3 transition-all shadow-md overflow-hidden duration-500 group-hover:shadow-4xl">
 
             <div className="flex flex-col md:flex-row items-center md:items-start">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-24 md:h-48 text-purple-100" viewBox="0 0 61 44">
@@ -120,11 +120,11 @@ export default function Home() {
             },
           ].map((o, index) => (
             <div key={index} className="group grid grid-cols-1 grid-rows-1 overflow-hidden rounded-[2rem]">
-              <div className="col-start-1 row-start-1 col-span-1 row-span-1 p-3 -inset-8 rounded-lg bg-gradient-to-br from-purple-900 via-purple-500 to-purple-400 opacity-75 blur-2xl">
+              <div className="col-start-1 row-start-1 col-span-1 row-span-1 p-3 -inset-8 rounded-lg bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 opacity-75 blur-2xl">
                 <div className="h-full w-full rounded-[0.5rem] bg-white flex flex-col p-8">
                 </div>
               </div>
-              <div className="col-start-1 row-start-1 col-span-1 row-span-1 h-64 z-10 rounded-[1.5rem] bg-white flex flex-col justify-between p-8 m-3 transition-all shadow-md overflow-hidden group-hover:shadow-2xl">
+              <div className="col-start-1 row-start-1 col-span-1 row-span-1 h-64 z-10 rounded-[1.5rem] bg-white flex flex-col justify-between p-8 m-3 transition-all shadow-md overflow-hidden duration-500 group-hover:shadow-4xl">
                 {/* <Image height={80} width={80} alt="" className="self-end" src="/phvalues.png" /> */}
                 {o.logo}
               </div>
@@ -148,13 +148,13 @@ export default function Home() {
         <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8">
 
           <div className="group grid grid-cols-1 grid-rows-1 overflow-hidden rounded-[2rem]">
-            <div className="col-start-1 row-start-1 col-span-1 row-span-1 p-3 -inset-8 rounded-lg bg-gradient-to-br from-purple-900 via-purple-500 to-purple-400 opacity-75 blur-2xl">
+            <div className="col-start-1 row-start-1 col-span-1 row-span-1 p-3 -inset-8 rounded-lg bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 opacity-75 blur-2xl">
               <div className="h-full w-full rounded-[0.5rem] bg-white flex flex-col p-8">
               </div>
             </div>
-            <div className="col-start-1 row-start-1 col-span-1 row-span-1 z-10 rounded-[1.5rem] bg-white flex flex-col justify-between p-3 md:p-8 m-3 transition-all shadow-md overflow-hidden group-hover:shadow-2xl">
+            <div className="col-start-1 row-start-1 col-span-1 row-span-1 z-10 rounded-[1.5rem] bg-white flex flex-col justify-between p-3 md:p-8 m-3 transition-all shadow-md overflow-hidden duration-500 group-hover:shadow-4xl">
               <div className="flex flex-col w-full">
-                <Image src="https://static.wixstatic.com/media/8d54a7_a19e136d4fa5416c963815a2939723c6~mv2.jpg/v1/crop/x_259,y_0,w_665,h_665/fill/w_384,h_384,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/IMG_6206_JPG.jpg" width="1024" height="1024" alt="" className="h-96 transition-all shadow-2xl hover:shadow-md object-cover rounded-[1rem] md:rounded-[2rem] grayscale" />
+                <Image src="https://static.wixstatic.com/media/8d54a7_a19e136d4fa5416c963815a2939723c6~mv2.jpg/v1/crop/x_259,y_0,w_665,h_665/fill/w_384,h_384,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/IMG_6206_JPG.jpg" width="1024" height="1024" alt="" className="h-96 transition-all shadow-md object-cover rounded-[1rem] md:rounded-[2rem] grayscale" />
                 <Text className="w-fit mt-8 px-2 md:px-8 py-8 text-3xl bg-gradient-to-br from-black to-stone-500 bg-clip-text tracking-[-0.02em] text-transparent opacity-100 drop-shadow-md">
                   Dheeraj Pandey
                 </Text>
@@ -163,13 +163,13 @@ export default function Home() {
             </div>
           </div>
           <div className="group grid grid-cols-1 grid-rows-1 overflow-hidden rounded-[2rem]">
-            <div className="col-start-1 row-start-1 col-span-1 row-span-1 p-3 -inset-8 rounded-lg bg-gradient-to-br from-purple-900 via-purple-500 to-purple-400 opacity-75 blur-2xl">
+            <div className="col-start-1 row-start-1 col-span-1 row-span-1 p-3 -inset-8 rounded-lg bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 opacity-75 blur-2xl">
               <div className="h-full w-full rounded-[0.5rem] bg-white flex flex-col p-8">
               </div>
             </div>
-            <div className="col-start-1 row-start-1 col-span-1 row-span-1 z-10 rounded-[1.5rem] bg-white flex flex-col justify-between p-3 md:p-8 m-3 transition-all shadow-md overflow-hidden group-hover:shadow-2xl">
+            <div className="col-start-1 row-start-1 col-span-1 row-span-1 z-10 rounded-[1.5rem] bg-white flex flex-col justify-between p-3 md:p-8 m-3 transition-all shadow-md overflow-hidden duration-500 group-hover:shadow-4xl">
               <div className="flex flex-col w-full">
-                <Image src="https://static.wixstatic.com/media/bc5473_ec57a2bd3c5f419f92b50a898e1cadf6~mv2.png/v1/crop/x_74,y_0,w_412,h_412/fill/w_384,h_372,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/bc5473_ec57a2bd3c5f419f92b50a898e1cadf6~mv2.png" width="1024" height="1024" alt="" className="h-96 transition-all shadow-2xl hover:shadow-md object-cover rounded-[1rem] md:rounded-[2rem] grayscale" />
+                <Image src="https://static.wixstatic.com/media/bc5473_ec57a2bd3c5f419f92b50a898e1cadf6~mv2.png/v1/crop/x_74,y_0,w_412,h_412/fill/w_384,h_372,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/bc5473_ec57a2bd3c5f419f92b50a898e1cadf6~mv2.png" width="1024" height="1024" alt="" className="h-96 transition-all shadow-md object-cover rounded-[1rem] md:rounded-[2rem] grayscale" />
                 <Text className="w-fit mt-8 px-2 md:px-8 py-8 text-3xl bg-gradient-to-br from-black to-stone-500 bg-clip-text tracking-[-0.02em] text-transparent opacity-100 drop-shadow-md">
                   Amit Kumar
                 </Text>
@@ -211,11 +211,11 @@ export default function Home() {
         <Text as="h2" className="w-fit text-3xl md:text-5xl uppercase bg-gradient-to-r from-purple-700 to-purple-300 bg-clip-text tracking-[-0.05rem] text-transparent opacity-100 drop-shadow-sm pb-16">Contact Us</Text>
         {/* <Text as="h2" className="w-fit uppercase text-5xl text-center md:py-2 bg-gradient-to-br from-black to-stone-500 bg-clip-text tracking-[-0.02em] text-transparent opacity-100 drop-shadow-sm pb-16">Contact Us</Text> */}
         <div className="group grid grid-cols-1 grid-rows-1 overflow-hidden w-full rounded-[2rem]">
-          <div className="col-start-1 row-start-1 col-span-1 row-span-1 p-3 -inset-8 rounded-lg bg-gradient-to-br from-purple-900 via-purple-500 to-purple-400 opacity-75 blur-2xl">
+          <div className="col-start-1 row-start-1 col-span-1 row-span-1 p-3 -inset-8 rounded-lg bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 opacity-75 blur-2xl">
             <div className="h-full w-full rounded-[0.5rem] bg-white flex flex-col p-8">
             </div>
           </div>
-          <div className="col-start-1 row-start-1 col-span-1 row-span-1 z-10 rounded-[1.5rem] bg-white flex flex-col justify-between p-3 md:p-8 m-3 transition-all shadow-md overflow-hidden group-hover:shadow-2xl">
+          <div className="col-start-1 row-start-1 col-span-1 row-span-1 z-10 rounded-[1.5rem] bg-white flex flex-col justify-between p-3 md:p-8 m-3 transition-all shadow-md overflow-hidden duration-500 group-hover:shadow-4xl">
 
             <iframe data-tally-src="https://tally.so/embed/mO4Ve7?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="1" title="Contact form"></iframe>
             <Script id="tally-form" strategy="lazyOnload">
