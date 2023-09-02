@@ -17,17 +17,17 @@ export default function Home() {
             <Text as="h1" className="flex items-center text-4xl md:text-5xl uppercase">
               <span className="relative h-[2.5rem] md:h-[3rem] w-full overflow-hidden">
                 <span
-                  className="absolute h-full w-full -translate-y-full animate-slide leading-none bg-gradient-to-r from-purple-700 to-purple-300 bg-clip-text tracking-[-0.05rem] text-transparent opacity-100 drop-shadow-sm [animation-delay:0.450s]"
+                  className="absolute break-all h-full w-full -translate-y-full animate-slide leading-none bg-gradient-to-r from-purple-700 to-purple-300 bg-clip-text tracking-[-0.05rem] text-transparent opacity-100 drop-shadow-sm [animation-delay:0.450s]"
                 >
                   Deep Thinkers
                 </span>
                 <span
-                  className="absolute h-full w-full -translate-y-full animate-slide leading-none bg-gradient-to-r from-purple-700 to-purple-300 bg-clip-text tracking-[-0.05rem] text-transparent opacity-100 drop-shadow-sm [animation-delay:2.08s]"
+                  className="absolute break-all h-full w-full -translate-y-full animate-slide leading-none bg-gradient-to-r from-purple-700 to-purple-300 bg-clip-text tracking-[-0.05rem] text-transparent opacity-100 drop-shadow-sm [animation-delay:2.08s]"
                 >
                   Problem Solvers
                 </span>
                 <span
-                  className="absolute h-full w-full -translate-y-full animate-slide leading-none bg-gradient-to-r from-purple-700 to-purple-300 bg-clip-text tracking-[-0.05rem] text-transparent opacity-100 drop-shadow-sm [animation-delay:3.78s]"
+                  className="absolute break-all h-full w-full -translate-y-full animate-slide leading-none bg-gradient-to-r from-purple-700 to-purple-300 bg-clip-text tracking-[-0.05rem] text-transparent opacity-100 drop-shadow-sm [animation-delay:3.78s]"
                 >
                   Entrepreneurs
                 </span>
@@ -67,7 +67,7 @@ export default function Home() {
             <div className="h-full w-full rounded-[0.5rem] bg-white flex flex-col p-8">
             </div>
           </div>
-          <div className="col-start-1 row-start-1 col-span-1 row-span-1  z-10 rounded-[1.5rem] bg-white flex flex-col justify-between p-8 m-3 transition-all shadow-md overflow-hidden group-hover:shadow-2xl">
+          <div className="col-start-1 row-start-1 col-span-1 row-span-1  z-10 rounded-[1.5rem] bg-white flex flex-col justify-between p-3 md:p-8 m-3 transition-all shadow-md overflow-hidden group-hover:shadow-2xl">
 
             <div className="flex flex-col md:flex-row items-center md:items-start">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-24 md:h-48 text-purple-100" viewBox="0 0 61 44">
@@ -215,7 +215,7 @@ export default function Home() {
             <div className="h-full w-full rounded-[0.5rem] bg-white flex flex-col p-8">
             </div>
           </div>
-          <div className="col-start-1 row-start-1 col-span-1 row-span-1 z-10 rounded-[1.5rem] bg-white flex flex-col justify-between p-8 m-3 transition-all shadow-md overflow-hidden group-hover:shadow-2xl">
+          <div className="col-start-1 row-start-1 col-span-1 row-span-1 z-10 rounded-[1.5rem] bg-white flex flex-col justify-between p-3 md:p-8 m-3 transition-all shadow-md overflow-hidden group-hover:shadow-2xl">
 
             <iframe data-tally-src="https://tally.so/embed/mO4Ve7?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="1" title="Contact form"></iframe>
             <Script id="tally-form" strategy="lazyOnload">
