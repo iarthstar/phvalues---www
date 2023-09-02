@@ -62,14 +62,24 @@ export default function Home() {
 
       {/* QUOTE SECTION */}
       <PageContainer className="pb-56">
-        <div className="flex flex-col md:flex-row items-center md:items-start">
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-24 md:h-48 text-purple-100" viewBox="0 0 61 44">
-            <path d="M 1 42.604 L 2.45 34.543 C 5.647 34.717 8.138 34.254 9.922 33.156 C 11.707 32.058 12.897 30.527 13.492 28.563 C 14.086 26.598 14.198 24.373 13.826 21.889 L 1 21.889 L 1 1 L 25.648 1 L 25.648 23.622 C 25.648 30.441 23.529 35.583 19.291 39.05 C 15.127 42.517 9.03 43.702 1 42.604 Z M 35.352 42.604 L 36.802 34.543 C 39.999 34.717 42.49 34.254 44.274 33.156 C 46.059 32.058 47.248 30.527 47.843 28.563 C 48.438 26.598 48.55 24.373 48.178 21.889 L 35.352 21.889 L 35.352 1 L 60 1 L 60 23.622 C 60 30.441 57.881 35.583 53.643 39.05 C 49.479 42.517 43.382 43.702 35.352 42.604 Z" fill="currentColor" />
-          </svg>
-          <Text font="mrsSaintDelafield" className="text-5xl p-8 bg-gradient-to-br from-black to-stone-500 bg-clip-text tracking-[-0.02em] text-transparent opacity-100 drop-shadow-sm">
-            Devote your entire will power to mastering one thing at a time; do not scatter your energies, nor leave something half done to begin a new venture.
+        <div className="group grid grid-cols-1 grid-rows-1 w-full overflow-hidden rounded-[2rem]">
+          <div className="col-start-1 row-start-1 col-span-1 row-span-1 p-3 -inset-8 rounded-lg bg-gradient-to-br from-purple-900 via-purple-500 to-purple-400 opacity-75 blur-2xl">
+            <div className="h-full w-full rounded-[0.5rem] bg-white flex flex-col p-8">
+            </div>
+          </div>
+          <div className="col-start-1 row-start-1 col-span-1 row-span-1  z-10 rounded-[1.5rem] bg-white flex flex-col justify-between p-8 m-3 transition-all shadow-md overflow-hidden group-hover:shadow-2xl">
 
-            <br /><br />- Paramahansa Yogananda</Text>
+            <div className="flex flex-col md:flex-row items-center md:items-start">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-24 md:h-48 text-purple-100" viewBox="0 0 61 44">
+                <path d="M 1 42.604 L 2.45 34.543 C 5.647 34.717 8.138 34.254 9.922 33.156 C 11.707 32.058 12.897 30.527 13.492 28.563 C 14.086 26.598 14.198 24.373 13.826 21.889 L 1 21.889 L 1 1 L 25.648 1 L 25.648 23.622 C 25.648 30.441 23.529 35.583 19.291 39.05 C 15.127 42.517 9.03 43.702 1 42.604 Z M 35.352 42.604 L 36.802 34.543 C 39.999 34.717 42.49 34.254 44.274 33.156 C 46.059 32.058 47.248 30.527 47.843 28.563 C 48.438 26.598 48.55 24.373 48.178 21.889 L 35.352 21.889 L 35.352 1 L 60 1 L 60 23.622 C 60 30.441 57.881 35.583 53.643 39.05 C 49.479 42.517 43.382 43.702 35.352 42.604 Z" fill="currentColor" />
+              </svg>
+              <Text font="mrsSaintDelafield" className="text-5xl p-8 bg-gradient-to-br from-black to-stone-500 bg-clip-text tracking-[-0.02em] text-transparent opacity-100 drop-shadow-sm">
+                Devote your entire will power to mastering one thing at a time; do not scatter your energies, nor leave something half done to begin a new venture.
+
+                <br /><br />- Paramahansa Yogananda</Text>
+            </div>
+          </div>
+
         </div>
       </PageContainer>
 
@@ -78,7 +88,7 @@ export default function Home() {
 
       {/* INVESTMENT SECTION */}
       <PageContainer className="flex flex-col items-center pb-56">
-        <Text as="h2" className="w-fit text-3xl uppercase bg-gradient-to-r from-purple-700 to-purple-300 bg-clip-text tracking-[-0.05rem] text-transparent opacity-100 drop-shadow-sm pb-16">Our Investment</Text>
+        <Text as="h2" className="w-fit text-5xl uppercase bg-gradient-to-r from-purple-700 to-purple-300 bg-clip-text tracking-[-0.05rem] text-transparent opacity-100 drop-shadow-sm pb-16">Our Investment</Text>
         <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8">
           {[
             {
@@ -134,35 +144,86 @@ export default function Home() {
 
       {/* TEAM SECTION */}
       <PageContainer className="flex flex-col items-center pb-56">
-        <Text as="h2" className="w-fit text-3xl uppercase bg-gradient-to-r from-purple-700 to-purple-300 bg-clip-text tracking-[-0.05rem] text-transparent opacity-100 drop-shadow-sm pb-16">Our TEAM</Text>
-        <div className="flex flex-col md:flex-row gap-24">
-          <div className="flex flex-col w-full">
-            <Image src="https://static.wixstatic.com/media/8d54a7_a19e136d4fa5416c963815a2939723c6~mv2.jpg/v1/crop/x_259,y_0,w_665,h_665/fill/w_384,h_384,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/IMG_6206_JPG.jpg" width="1024" height="1024" alt="" className="h-96 transition-all shadow-2xl hover:shadow-md object-cover rounded-[2rem] grayscale" />
-            <Text className="w-fit mt-8 p-8 text-3xl bg-gradient-to-br from-black to-stone-500 bg-clip-text tracking-[-0.02em] text-transparent opacity-100 drop-shadow-md">
-              Dheeraj Pandey
-            </Text>
-            <Text className="px-8 text-md text-stone-500">Dheeraj Pandey is the Chairman and CEO of DevRev Inc. Prior to DevRev, Dheeraj Pandey co-founded Nutanix, a global leader in enterprise cloud software and HCI  solutions, in 2009 and served as its Chief Executive Officer and as the Chairman of its board of directors for twelve years.</Text>
+        <Text as="h2" className="w-fit text-5xl uppercase bg-gradient-to-r from-purple-700 to-purple-300 bg-clip-text tracking-[-0.05rem] text-transparent opacity-100 drop-shadow-sm pb-16">Our TEAM</Text>
+        <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8">
+
+          <div className="group grid grid-cols-1 grid-rows-1 overflow-hidden rounded-[2rem]">
+            <div className="col-start-1 row-start-1 col-span-1 row-span-1 p-3 -inset-8 rounded-lg bg-gradient-to-br from-purple-900 via-purple-500 to-purple-400 opacity-75 blur-2xl">
+              <div className="h-full w-full rounded-[0.5rem] bg-white flex flex-col p-8">
+              </div>
+            </div>
+            <div className="col-start-1 row-start-1 col-span-1 row-span-1 z-10 rounded-[1.5rem] bg-white flex flex-col justify-between p-8 m-3 transition-all shadow-md overflow-hidden group-hover:shadow-2xl">
+              <div className="flex flex-col w-full">
+                <Image src="https://static.wixstatic.com/media/8d54a7_a19e136d4fa5416c963815a2939723c6~mv2.jpg/v1/crop/x_259,y_0,w_665,h_665/fill/w_384,h_384,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/IMG_6206_JPG.jpg" width="1024" height="1024" alt="" className="h-96 transition-all shadow-2xl hover:shadow-md object-cover rounded-[2rem] grayscale" />
+                <Text className="w-fit mt-8 p-8 text-3xl bg-gradient-to-br from-black to-stone-500 bg-clip-text tracking-[-0.02em] text-transparent opacity-100 drop-shadow-md">
+                  Dheeraj Pandey
+                </Text>
+                <Text className="px-8 text-md text-stone-500">Dheeraj Pandey is the Chairman and CEO of DevRev Inc. Prior to DevRev, Dheeraj Pandey co-founded Nutanix, a global leader in enterprise cloud software and HCI  solutions, in 2009 and served as its Chief Executive Officer and as the Chairman of its board of directors for twelve years.</Text>
+              </div>
+            </div>
           </div>
-          <div className="flex flex-col w-full">
-            <Image src="https://static.wixstatic.com/media/bc5473_ec57a2bd3c5f419f92b50a898e1cadf6~mv2.png/v1/crop/x_74,y_0,w_412,h_412/fill/w_384,h_372,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/bc5473_ec57a2bd3c5f419f92b50a898e1cadf6~mv2.png" width="1024" height="1024" alt="" className="h-96 transition-all shadow-2xl hover:shadow-md object-cover rounded-[2rem] grayscale" />
-            <Text className="w-fit mt-8 p-8 text-3xl bg-gradient-to-br from-black to-stone-500 bg-clip-text tracking-[-0.02em] text-transparent opacity-100 drop-shadow-md">
-              Amit Kumar
-            </Text>
-            <Text className="px-8 text-md text-stone-500">Mr. Kumar co-managed over $2b of US equity funds at Columbia Threadneedle for six years. He has spent over fifteen years researching companies in technology, biotech/ life sciences, and financial sectors. He has previously worked in the tech industry for ten years.</Text>
+          <div className="group grid grid-cols-1 grid-rows-1 overflow-hidden rounded-[2rem]">
+            <div className="col-start-1 row-start-1 col-span-1 row-span-1 p-3 -inset-8 rounded-lg bg-gradient-to-br from-purple-900 via-purple-500 to-purple-400 opacity-75 blur-2xl">
+              <div className="h-full w-full rounded-[0.5rem] bg-white flex flex-col p-8">
+              </div>
+            </div>
+            <div className="col-start-1 row-start-1 col-span-1 row-span-1 z-10 rounded-[1.5rem] bg-white flex flex-col justify-between p-8 m-3 transition-all shadow-md overflow-hidden group-hover:shadow-2xl">
+              <div className="flex flex-col w-full">
+                <Image src="https://static.wixstatic.com/media/bc5473_ec57a2bd3c5f419f92b50a898e1cadf6~mv2.png/v1/crop/x_74,y_0,w_412,h_412/fill/w_384,h_372,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/bc5473_ec57a2bd3c5f419f92b50a898e1cadf6~mv2.png" width="1024" height="1024" alt="" className="h-96 transition-all shadow-2xl hover:shadow-md object-cover rounded-[2rem] grayscale" />
+                <Text className="w-fit mt-8 p-8 text-3xl bg-gradient-to-br from-black to-stone-500 bg-clip-text tracking-[-0.02em] text-transparent opacity-100 drop-shadow-md">
+                  Amit Kumar
+                </Text>
+                <Text className="px-8 text-md text-stone-500">Mr. Kumar co-managed over $2b of US equity funds at Columbia Threadneedle for six years. He has spent over fifteen years researching companies in technology, biotech/ life sciences, and financial sectors. He has previously worked in the tech industry for ten years.</Text>
+              </div>
+            </div>
           </div>
         </div>
+
+        {/* <div className="group grid grid-cols-1 grid-rows-1 w-full rounded-[2rem]">
+          <div className="col-start-1 row-start-1 col-span-1 row-span-1 h-96 p-24 -inset-8 rounded-lg bg-gradient-to-br from-indigo-900 via-purple-200 to-indigo-400 opacity-75 blur-2xl">
+
+          </div>
+          <div className="col-start-1 row-start-1 col-span-1 row-span-1 flex flex-col md:flex-row gap-24">
+            <div className="flex flex-col w-full">
+              <Image src="https://static.wixstatic.com/media/8d54a7_a19e136d4fa5416c963815a2939723c6~mv2.jpg/v1/crop/x_259,y_0,w_665,h_665/fill/w_384,h_384,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/IMG_6206_JPG.jpg" width="1024" height="1024" alt="" className="h-96 transition-all shadow-2xl hover:shadow-md object-cover rounded-[2rem] grayscale" />
+              <Text className="w-fit mt-8 p-8 text-3xl bg-gradient-to-br from-black to-stone-500 bg-clip-text tracking-[-0.02em] text-transparent opacity-100 drop-shadow-md">
+                Dheeraj Pandey
+              </Text>
+              <Text className="px-8 text-md text-stone-500">Dheeraj Pandey is the Chairman and CEO of DevRev Inc. Prior to DevRev, Dheeraj Pandey co-founded Nutanix, a global leader in enterprise cloud software and HCI  solutions, in 2009 and served as its Chief Executive Officer and as the Chairman of its board of directors for twelve years.</Text>
+            </div>
+            <div className="flex flex-col w-full">
+              <Image src="https://static.wixstatic.com/media/bc5473_ec57a2bd3c5f419f92b50a898e1cadf6~mv2.png/v1/crop/x_74,y_0,w_412,h_412/fill/w_384,h_372,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/bc5473_ec57a2bd3c5f419f92b50a898e1cadf6~mv2.png" width="1024" height="1024" alt="" className="h-96 transition-all shadow-2xl hover:shadow-md object-cover rounded-[2rem] grayscale" />
+              <Text className="w-fit mt-8 p-8 text-3xl bg-gradient-to-br from-black to-stone-500 bg-clip-text tracking-[-0.02em] text-transparent opacity-100 drop-shadow-md">
+                Amit Kumar
+              </Text>
+              <Text className="px-8 text-md text-stone-500">Mr. Kumar co-managed over $2b of US equity funds at Columbia Threadneedle for six years. He has spent over fifteen years researching companies in technology, biotech/ life sciences, and financial sectors. He has previously worked in the tech industry for ten years.</Text>
+            </div>
+          </div>
+        </div> */}
+
+
       </PageContainer>
 
 
 
       {/* CONTACT SECTION */}
-      <PageContainer className="flex flex-col items-center pb-32">
-        <Text as="h2" className="w-fit text-3xl uppercase bg-gradient-to-r from-purple-700 to-purple-300 bg-clip-text tracking-[-0.05rem] text-transparent opacity-100 drop-shadow-sm pb-16">Contact Us</Text>
-        <iframe data-tally-src="https://tally.so/embed/mO4Ve7?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="1" title="Contact form"></iframe>
-        <Script id="tally-form" strategy="lazyOnload">
-          {`var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined" != typeof Tally ? Tally.loadEmbeds() : d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function (e) { e.src = e.dataset.tallySrc }))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}`}
-        </Script>
-        <div className="h-12 -translate-y-16 w-48 bg-white self-start min-[640px]:self-end"></div>
+      <PageContainer className="flex flex-col items-center pb-56">
+        <Text as="h2" className="w-fit text-5xl uppercase bg-gradient-to-r from-purple-700 to-purple-300 bg-clip-text tracking-[-0.05rem] text-transparent opacity-100 drop-shadow-sm pb-16">Contact Us</Text>
+        {/* <Text as="h2" className="w-fit uppercase text-5xl text-center md:py-2 bg-gradient-to-br from-black to-stone-500 bg-clip-text tracking-[-0.02em] text-transparent opacity-100 drop-shadow-sm pb-16">Contact Us</Text> */}
+        <div className="group grid grid-cols-1 grid-rows-1 overflow-hidden w-full rounded-[2rem]">
+          <div className="col-start-1 row-start-1 col-span-1 row-span-1 p-3 -inset-8 rounded-lg bg-gradient-to-br from-purple-900 via-purple-500 to-purple-400 opacity-75 blur-2xl">
+            <div className="h-full w-full rounded-[0.5rem] bg-white flex flex-col p-8">
+            </div>
+          </div>
+          <div className="col-start-1 row-start-1 col-span-1 row-span-1 z-10 rounded-[1.5rem] bg-white flex flex-col justify-between p-8 m-3 transition-all shadow-md overflow-hidden group-hover:shadow-2xl">
+
+            <iframe data-tally-src="https://tally.so/embed/mO4Ve7?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="1" title="Contact form"></iframe>
+            <Script id="tally-form" strategy="lazyOnload">
+              {`var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined" != typeof Tally ? Tally.loadEmbeds() : d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function (e) { e.src = e.dataset.tallySrc }))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}`}
+            </Script>
+            {/* <div className="h-12 -translate-y-16 w-48 bg-white self-start min-[640px]:self-end"></div> */}
+          </div>
+        </div>
       </PageContainer>
 
 
@@ -194,6 +255,6 @@ export default function Home() {
       </PageContainer>
 
 
-    </main>
+    </main >
   )
 }
