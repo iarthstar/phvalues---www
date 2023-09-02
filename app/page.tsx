@@ -88,7 +88,7 @@ export default function Home() {
 
       {/* INVESTMENT SECTION */}
       <PageContainer className="flex flex-col items-center pb-56">
-        <Text as="h2" className="w-fit text-5xl uppercase bg-gradient-to-r from-purple-700 to-purple-300 bg-clip-text tracking-[-0.05rem] text-transparent opacity-100 drop-shadow-sm pb-16">Our Investment</Text>
+        <Text as="h2" className="w-fit text-3xl md:text-5xl uppercase bg-gradient-to-r from-purple-700 to-purple-300 bg-clip-text tracking-[-0.05rem] text-transparent opacity-100 drop-shadow-sm pb-16">Our Investment</Text>
         <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8">
           {[
             {
@@ -144,7 +144,7 @@ export default function Home() {
 
       {/* TEAM SECTION */}
       <PageContainer className="flex flex-col items-center pb-56">
-        <Text as="h2" className="w-fit text-5xl uppercase bg-gradient-to-r from-purple-700 to-purple-300 bg-clip-text tracking-[-0.05rem] text-transparent opacity-100 drop-shadow-sm pb-16">Our TEAM</Text>
+        <Text as="h2" className="w-fit text-3xl md:text-5xl uppercase bg-gradient-to-r from-purple-700 to-purple-300 bg-clip-text tracking-[-0.05rem] text-transparent opacity-100 drop-shadow-sm pb-16">Our TEAM</Text>
         <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8">
 
           <div className="group grid grid-cols-1 grid-rows-1 overflow-hidden rounded-[2rem]">
@@ -152,13 +152,13 @@ export default function Home() {
               <div className="h-full w-full rounded-[0.5rem] bg-white flex flex-col p-8">
               </div>
             </div>
-            <div className="col-start-1 row-start-1 col-span-1 row-span-1 z-10 rounded-[1.5rem] bg-white flex flex-col justify-between p-8 m-3 transition-all shadow-md overflow-hidden group-hover:shadow-2xl">
+            <div className="col-start-1 row-start-1 col-span-1 row-span-1 z-10 rounded-[1.5rem] bg-white flex flex-col justify-between p-3 md:p-8 m-3 transition-all shadow-md overflow-hidden group-hover:shadow-2xl">
               <div className="flex flex-col w-full">
-                <Image src="https://static.wixstatic.com/media/8d54a7_a19e136d4fa5416c963815a2939723c6~mv2.jpg/v1/crop/x_259,y_0,w_665,h_665/fill/w_384,h_384,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/IMG_6206_JPG.jpg" width="1024" height="1024" alt="" className="h-96 transition-all shadow-2xl hover:shadow-md object-cover rounded-[2rem] grayscale" />
-                <Text className="w-fit mt-8 p-8 text-3xl bg-gradient-to-br from-black to-stone-500 bg-clip-text tracking-[-0.02em] text-transparent opacity-100 drop-shadow-md">
+                <Image src="https://static.wixstatic.com/media/8d54a7_a19e136d4fa5416c963815a2939723c6~mv2.jpg/v1/crop/x_259,y_0,w_665,h_665/fill/w_384,h_384,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/IMG_6206_JPG.jpg" width="1024" height="1024" alt="" className="h-96 transition-all shadow-2xl hover:shadow-md object-cover rounded-[1rem] md:rounded-[2rem] grayscale" />
+                <Text className="w-fit mt-8 px-2 md:px-8 py-8 text-3xl bg-gradient-to-br from-black to-stone-500 bg-clip-text tracking-[-0.02em] text-transparent opacity-100 drop-shadow-md">
                   Dheeraj Pandey
                 </Text>
-                <Text className="px-8 text-md text-stone-500">Dheeraj Pandey is the Chairman and CEO of DevRev Inc. Prior to DevRev, Dheeraj Pandey co-founded Nutanix, a global leader in enterprise cloud software and HCI  solutions, in 2009 and served as its Chief Executive Officer and as the Chairman of its board of directors for twelve years.</Text>
+                <Text className="px-2 md:px-8 text-md text-stone-500 pb-4">Dheeraj Pandey is the Chairman and CEO of DevRev Inc. Prior to DevRev, Dheeraj Pandey co-founded Nutanix, a global leader in enterprise cloud software and HCI  solutions, in 2009 and served as its Chief Executive Officer and as the Chairman of its board of directors for twelve years.</Text>
               </div>
             </div>
           </div>
@@ -167,13 +167,13 @@ export default function Home() {
               <div className="h-full w-full rounded-[0.5rem] bg-white flex flex-col p-8">
               </div>
             </div>
-            <div className="col-start-1 row-start-1 col-span-1 row-span-1 z-10 rounded-[1.5rem] bg-white flex flex-col justify-between p-8 m-3 transition-all shadow-md overflow-hidden group-hover:shadow-2xl">
+            <div className="col-start-1 row-start-1 col-span-1 row-span-1 z-10 rounded-[1.5rem] bg-white flex flex-col justify-between p-3 md:p-8 m-3 transition-all shadow-md overflow-hidden group-hover:shadow-2xl">
               <div className="flex flex-col w-full">
-                <Image src="https://static.wixstatic.com/media/bc5473_ec57a2bd3c5f419f92b50a898e1cadf6~mv2.png/v1/crop/x_74,y_0,w_412,h_412/fill/w_384,h_372,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/bc5473_ec57a2bd3c5f419f92b50a898e1cadf6~mv2.png" width="1024" height="1024" alt="" className="h-96 transition-all shadow-2xl hover:shadow-md object-cover rounded-[2rem] grayscale" />
-                <Text className="w-fit mt-8 p-8 text-3xl bg-gradient-to-br from-black to-stone-500 bg-clip-text tracking-[-0.02em] text-transparent opacity-100 drop-shadow-md">
+                <Image src="https://static.wixstatic.com/media/bc5473_ec57a2bd3c5f419f92b50a898e1cadf6~mv2.png/v1/crop/x_74,y_0,w_412,h_412/fill/w_384,h_372,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/bc5473_ec57a2bd3c5f419f92b50a898e1cadf6~mv2.png" width="1024" height="1024" alt="" className="h-96 transition-all shadow-2xl hover:shadow-md object-cover rounded-[1rem] md:rounded-[2rem] grayscale" />
+                <Text className="w-fit mt-8 px-2 md:px-8 py-8 text-3xl bg-gradient-to-br from-black to-stone-500 bg-clip-text tracking-[-0.02em] text-transparent opacity-100 drop-shadow-md">
                   Amit Kumar
                 </Text>
-                <Text className="px-8 text-md text-stone-500">Mr. Kumar co-managed over $2b of US equity funds at Columbia Threadneedle for six years. He has spent over fifteen years researching companies in technology, biotech/ life sciences, and financial sectors. He has previously worked in the tech industry for ten years.</Text>
+                <Text className="px-2 md:px-8 text-md text-stone-500 pb-4">Mr. Kumar co-managed over $2b of US equity funds at Columbia Threadneedle for six years. He has spent over fifteen years researching companies in technology, biotech/ life sciences, and financial sectors. He has previously worked in the tech industry for ten years.</Text>
               </div>
             </div>
           </div>
@@ -208,7 +208,7 @@ export default function Home() {
 
       {/* CONTACT SECTION */}
       <PageContainer className="flex flex-col items-center pb-56">
-        <Text as="h2" className="w-fit text-5xl uppercase bg-gradient-to-r from-purple-700 to-purple-300 bg-clip-text tracking-[-0.05rem] text-transparent opacity-100 drop-shadow-sm pb-16">Contact Us</Text>
+        <Text as="h2" className="w-fit text-3xl md:text-5xl uppercase bg-gradient-to-r from-purple-700 to-purple-300 bg-clip-text tracking-[-0.05rem] text-transparent opacity-100 drop-shadow-sm pb-16">Contact Us</Text>
         {/* <Text as="h2" className="w-fit uppercase text-5xl text-center md:py-2 bg-gradient-to-br from-black to-stone-500 bg-clip-text tracking-[-0.02em] text-transparent opacity-100 drop-shadow-sm pb-16">Contact Us</Text> */}
         <div className="group grid grid-cols-1 grid-rows-1 overflow-hidden w-full rounded-[2rem]">
           <div className="col-start-1 row-start-1 col-span-1 row-span-1 p-3 -inset-8 rounded-lg bg-gradient-to-br from-purple-900 via-purple-500 to-purple-400 opacity-75 blur-2xl">
