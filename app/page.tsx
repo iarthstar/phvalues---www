@@ -11,10 +11,10 @@ export default function Home() {
       <PageContainer className="w-full grid grid-cols-1 md:grid-cols-2 -translate-y-4">
         <div className="pt-24 md:pt-0 flex flex-col justify-center items-start">
           <div className="translate-y-[1rem] animate-fade-in opacity-0 [--animation-delay:200ms]">
-            <Text as="h1" font="inter" className="w-fit text-4xl md:text-5xl uppercase animate-fade-up bg-gradient-to-r from-black to-stone-500 bg-clip-text tracking-[-0.05rem] text-transparent opacity-100 drop-shadow-sm">
+            <Text as="h1" font="inter" className="w-fit text-4xl md:text-5xl md:leading-[1.2] animate-fade-up bg-gradient-to-r from-black to-stone-500 bg-clip-text text-transparent opacity-100 drop-shadow-sm">
               To be on an infinite journey of learning and risk-taking with
             </Text>
-            <Text as="h1" className="flex items-center text-4xl md:text-5xl uppercase">
+            <Text as="h1" className="flex items-center text-4xl md:text-5xl mt-2">
               <span className="relative h-[2.5rem] md:h-[3rem] w-full overflow-hidden">
                 <span
                   className="absolute break-all h-full w-full -translate-y-full animate-slide leading-none bg-gradient-to-r from-purple-700 to-purple-300 bg-clip-text tracking-[-0.05rem] text-transparent opacity-100 drop-shadow-sm [animation-delay:0.450s]"
@@ -69,7 +69,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="col-start-1 row-start-1 col-span-1 row-span-1  z-10 rounded-[1.5rem] bg-white flex flex-col justify-between p-3 md:p-8 m-3 transition-all shadow-md overflow-hidden duration-500 group-hover:shadow-4xl">
+          <div className="col-start-1 row-start-1 col-span-1 row-span-1  z-10 rounded-[1.5rem] bg-white flex flex-col justify-between p-3 md:p-8 m-3 transition-all shadow-md overflow-hidden duration-500">
 
             <div className="flex flex-col md:flex-row items-center md:items-start">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-24 md:h-48 text-purple-100" viewBox="0 0 61 44">
@@ -77,11 +77,11 @@ export default function Home() {
               </svg>
               <div>
 
-                <Text font="mrsSaintDelafield" className="text-5xl p-8 bg-gradient-to-r from-black to-stone-500 bg-clip-text tracking-[-0.05rem] text-transparent opacity-100 drop-shadow-md">
-                  Devote your entire will power to mastering one thing at a time; do not scatter your energies, nor leave something half done to begin a new venture.
+                <Text className="text-3xl p-8 bg-gradient-to-r from-black to-stone-500 bg-clip-text text-transparent opacity-100 drop-shadow-md">
+                  Devote your entire will power to mastering one thing at a time, do not scatter your energies, nor leave something half done to begin a new venture.
 
                 </Text>
-                <Text font="mrsSaintDelafield" className="w-fit text-5xl p-8 bg-gradient-to-r from-black to-stone-500 bg-clip-text tracking-[-0.05rem] text-transparent opacity-100 drop-shadow-md">- Paramahansa Yogananda</Text>
+                <Text className="w-fit text-3xl p-8 bg-gradient-to-r from-black to-stone-500 bg-clip-text text-transparent opacity-100 drop-shadow-md">- Paramahansa Yogananda</Text>
               </div>
             </div>
           </div>
@@ -94,7 +94,7 @@ export default function Home() {
 
       {/* INVESTMENT SECTION */}
       <PageContainer className="flex flex-col items-center pb-56">
-        <Text as="h2" className="w-fit text-3xl md:text-5xl uppercase bg-gradient-to-r from-purple-700 to-purple-300 bg-clip-text tracking-[-0.05rem] text-transparent opacity-100 drop-shadow-sm pb-16">Our Investment</Text>
+        <Text as="h2" className="w-fit text-3xl md:text-5xl  bg-gradient-to-r from-purple-700 to-purple-300 bg-clip-text tracking-[-0.05rem] text-transparent opacity-100 drop-shadow-sm pb-16">Our Investment</Text>
         <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8">
           {[
             {
@@ -152,7 +152,7 @@ export default function Home() {
 
       {/* TEAM SECTION */}
       <PageContainer className="flex flex-col items-center pb-56">
-        <Text as="h2" className="w-fit text-3xl md:text-5xl uppercase bg-gradient-to-r from-purple-700 to-purple-300 bg-clip-text tracking-[-0.05rem] text-transparent opacity-100 drop-shadow-sm pb-16">Our TEAM</Text>
+        <Text as="h2" className="w-fit text-3xl md:text-5xl  bg-gradient-to-r from-purple-700 to-purple-300 bg-clip-text tracking-[-0.05rem] text-transparent opacity-100 drop-shadow-sm pb-16">Our Team</Text>
         <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8">
 
           <div className="group grid grid-cols-1 grid-rows-1 rounded-[2rem]">
@@ -162,7 +162,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-            <div className="col-start-1 row-start-1 col-span-1 row-span-1 z-10 rounded-[1.5rem] bg-white flex flex-col justify-between p-3 md:p-8 m-3 transition-all shadow-md overflow-hidden duration-500 group-hover:shadow-4xl">
+            <div className="col-start-1 row-start-1 col-span-1 row-span-1 z-10 rounded-[1.5rem] bg-white flex flex-col justify-between p-3 md:p-8 m-3 transition-all shadow-md overflow-hidden duration-500">
               <div className="flex flex-col w-full">
                 <Image src="https://static.wixstatic.com/media/8d54a7_a19e136d4fa5416c963815a2939723c6~mv2.jpg/v1/crop/x_259,y_0,w_665,h_665/fill/w_384,h_384,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/IMG_6206_JPG.jpg" width="1024" height="1024" alt="" className="h-96 transition-all shadow-md object-cover rounded-[1rem] md:rounded-[2rem] grayscale" />
                 <Text className="w-fit mt-8 px-2 md:px-8 py-8 text-3xl bg-gradient-to-br from-black to-stone-500 bg-clip-text tracking-[-0.02em] text-transparent opacity-100 drop-shadow-md">
@@ -179,7 +179,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-            <div className="col-start-1 row-start-1 col-span-1 row-span-1 z-10 rounded-[1.5rem] bg-white flex flex-col justify-between p-3 md:p-8 m-3 transition-all shadow-md overflow-hidden duration-500 group-hover:shadow-4xl">
+            <div className="col-start-1 row-start-1 col-span-1 row-span-1 z-10 rounded-[1.5rem] bg-white flex flex-col justify-between p-3 md:p-8 m-3 transition-all shadow-md overflow-hidden duration-500">
               <div className="flex flex-col w-full">
                 <Image src="https://static.wixstatic.com/media/bc5473_ec57a2bd3c5f419f92b50a898e1cadf6~mv2.png/v1/crop/x_74,y_0,w_412,h_412/fill/w_384,h_372,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/bc5473_ec57a2bd3c5f419f92b50a898e1cadf6~mv2.png" width="1024" height="1024" alt="" className="h-96 transition-all shadow-md object-cover rounded-[1rem] md:rounded-[2rem] grayscale" />
                 <Text className="w-fit mt-8 px-2 md:px-8 py-8 text-3xl bg-gradient-to-br from-black to-stone-500 bg-clip-text tracking-[-0.02em] text-transparent opacity-100 drop-shadow-md">
@@ -220,8 +220,8 @@ export default function Home() {
 
       {/* CONTACT SECTION */}
       <PageContainer className="flex flex-col items-center pb-56">
-        <Text as="h2" className="w-fit text-3xl md:text-5xl uppercase bg-gradient-to-r from-purple-700 to-purple-300 bg-clip-text tracking-[-0.05rem] text-transparent opacity-100 drop-shadow-sm pb-16">Contact Us</Text>
-        {/* <Text as="h2" className="w-fit uppercase text-5xl text-center md:py-2 bg-gradient-to-br from-black to-stone-500 bg-clip-text tracking-[-0.02em] text-transparent opacity-100 drop-shadow-sm pb-16">Contact Us</Text> */}
+        <Text as="h2" className="w-fit text-3xl md:text-5xl  bg-gradient-to-r from-purple-700 to-purple-300 bg-clip-text tracking-[-0.05rem] text-transparent opacity-100 drop-shadow-sm pb-16">Contact Us</Text>
+        {/* <Text as="h2" className="w-fit  text-5xl text-center md:py-2 bg-gradient-to-br from-black to-stone-500 bg-clip-text tracking-[-0.02em] text-transparent opacity-100 drop-shadow-sm pb-16">Contact Us</Text> */}
         <div className="group grid grid-cols-1 grid-rows-1 w-full rounded-[2rem]">
         <div className="col-start-1 row-start-1 col-span-1 row-span-1 overflow-hidden rounded-[2rem]">
             <div className="h-full w-full p-3 -inset-8 rounded-lg bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 opacity-75 blur-2xl">
@@ -245,8 +245,8 @@ export default function Home() {
       {/* LAST SECTION */}
       <PageContainer className="h-64 md:h-96 w-full">
         <div className="rounded-[2rem] h-full md:rounded-[6rem] from-50% bg-gradient-to-b from-transparent to-purple-300 w-full">
-          <Text className="uppercase text-2xl md:text-5xl text-center md:py-2 bg-gradient-to-br from-black to-stone-500 bg-clip-text tracking-[-0.02em] text-transparent opacity-100 drop-shadow-sm">Building a culture of</Text>
-          <Text className="uppercase flex items-center justify-center text-2xl md:text-5xl text-center py-2 bg-gradient-to-br from-black to-stone-500 bg-clip-text tracking-[-0.02em] text-transparent opacity-100 drop-shadow-sm">
+          <Text className=" text-2xl md:text-5xl text-center md:py-2 bg-gradient-to-br from-black to-stone-500 bg-clip-text tracking-[-0.02em] text-transparent opacity-100 drop-shadow-sm">Building a culture of</Text>
+          <Text className=" flex items-center justify-center text-2xl md:text-5xl text-center py-2 bg-gradient-to-br from-black to-stone-500 bg-clip-text tracking-[-0.02em] text-transparent opacity-100 drop-shadow-sm">
             <span className="relative h-[1.5rem] md:h-[3rem] w-48 overflow-hidden">
               <span
                 className="absolute left-0 h-full w-full -translate-y-full animate-slide leading-none bg-gradient-to-br from-purple-500 to-purple-300 bg-clip-text tracking-[-0.02em] text-transparent opacity-100 drop-shadow-sm"
